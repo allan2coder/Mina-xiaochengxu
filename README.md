@@ -1,7 +1,6 @@
-# Example WeixinApp（欢迎star :smile:）
+# Example WeixinApp
 
-微信小程序 demo
-
+微信小程序 demo，蛮简单的、搞着玩吧。
 ![image](https://raw.githubusercontent.com/allan2coder/Mina-xiaochengxu/master/image/1.png)
 ![image](https://raw.githubusercontent.com/allan2coder/Mina-xiaochengxu/master/image/2.png)
 
