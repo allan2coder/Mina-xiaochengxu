@@ -1,0 +1,30 @@
+<view class="index">
+
+    <view class="head">
+        <view class="title">{{testBind}}</view>
+    </view>
+
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:key="{{$index}}" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" height="200"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    
+    <view class="lists">
+        <view>
+            <navigator>列表1</navigator>
+            <text></text>
+        </view>
+        <view>列表2</view>
+        <view>列表3</view>
+        <view>列表4</view>
+        <view>列表5</view>
+        <view>列表6</view>
+        <view>列表7</view>
+        <view>列表8</view>
+    </view>
+
+</view>

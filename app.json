@@ -1,0 +1,36 @@
+{
+  "pages": [
+      "page/component/index",
+      "page/component/secondPage/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Allan's 小程序",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "red"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "red",
+    "borderStyle": "#dddddd",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "page/component/index",
+      "iconPath": "page/component/resources/icon2.png",
+      "selectedIconPath": "page/component/resources/icon1.png",
+      "text": "首页"
+    }, {
+      "pagePath": "page/component/secondPage/index",
+      "iconPath": "page/component/resources/icon2.png",
+      "selectedIconPath": "page/component/resources/icon1.png",
+      "text": "个人中心"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
